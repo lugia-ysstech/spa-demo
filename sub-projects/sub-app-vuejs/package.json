@@ -1,0 +1,26 @@
+{
+  "name": "vue-single-spa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve-vue": "vue-cli-service serve --port 3000",
+    "build": "vue-cli-service build"
+  },
+  "main": "dist/vue-single-spa-module.common.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "core-js": "^3.3.2",
+    "single-spa-vue": "^1.5.2",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "vue-cli-plugin-single-spa": "^1.0.1",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

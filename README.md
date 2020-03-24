@@ -21,8 +21,8 @@
     - yarn install / npm install / cnpm install
     - npm run build
     - npm run serve-react
- 3. React：
-    - cd sub-projects/sub-app-react16
+ 3. helloReact：
+    - cd sub-projects/sub-app-react16-Hello
     - yarn install / npm install / cnpm install
     - npm run build
     - npm run serve-react
@@ -39,5 +39,5 @@
 
 - vuejs: 3000
 - react: 3001
-- reactHello: 3015
+- helloReact: 3015
 - angular: 3002

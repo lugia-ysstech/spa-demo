@@ -13,6 +13,10 @@ const routes = [
     path: '/react',
     name: 'react',
     component: () => import(/* webpackChunkName: "about" */ '../components/React')
+  },  {
+    path: '/helloReact',
+    name: 'helloReact',
+    component: () => import(/* webpackChunkName: "about" */ '../components/React')
   },
   {
     path: '/angular',

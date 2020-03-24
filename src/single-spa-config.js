@@ -22,7 +22,7 @@ singleSpa.registerApplication( //注册微前端服务
     },
     location => { // 应用是否激活
         return location.pathname.startsWith('/vue')
-    }// 配置微前端模块前缀
+    }
     ,{data:1} // 传入应用钩子函数的参数
 );
 
@@ -35,9 +35,22 @@ singleSpa.registerApplication(
     },
     location => 
     {
-        console.log('应用是否激活',location.pathname.startsWith('/react'))
         return location.pathname.startsWith('/react')
-    }// 配置微前端模块前缀
+    }
+);
+
+
+singleSpa.registerApplication(
+    'helloReactApp',
+    async () => {
+        await runScript('http://localhost:3015/static/js/main.js');
+        console.log('window.reactApp', window.reactApp)
+        return window.reactApp;
+    },
+    location =>
+    {
+        return location.pathname.startsWith('/helloReact')
+    }
 );
 
 singleSpa.registerApplication(
@@ -51,10 +64,8 @@ singleSpa.registerApplication(
         return window.angularApp;
     },
     location =>  {
-        console.log(location)
-        console.log('应用是否激活',location.pathname.startsWith('/angular'))
         return location.pathname.startsWith('/angular')
-    }// 配置微前端模块前缀
+    }
 );
 
 singleSpa.addErrorHandler(err => {

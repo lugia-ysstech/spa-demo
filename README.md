@@ -21,17 +21,23 @@
     - yarn install / npm install / cnpm install
     - npm run build
     - npm run serve-react
-3. Angular：
+ 3. React：
+    - cd sub-projects/sub-app-react16
+    - yarn install / npm install / cnpm install
+    - npm run build
+    - npm run serve-react
+4. Angular：
     - cd sub-projects/sub-app-angular
     - yarn install / npm install / cnpm install
     - npm run build
     - npm run serve-angular
-4. vue-single-spa-back:
+5. vue-single-spa-back:
     - yarn install / npm install / cnpm install
-    - npm run serve-spa
+    - npm run start
     
 ## 端口示例：
 
 - vuejs: 3000
 - react: 3001
+- reactHello: 3015
 - angular: 3002

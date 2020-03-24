@@ -4,7 +4,7 @@
 
 ## 说明
 
-**子项目均在 subprojects内, 三个项目互不关联，相互隔离。**
+**子项目均在 subprojects内, 四个项目互不关联，相互隔离。**
 > * 本示例主要说明，微前端的简单示例，和如何远程加载微前端模块，所以需要启动四个项目工程
 > * single-spa 配置文件在src/single-spa-config.js。vue & react 项目的入口文件均有注释
 > * 如果还不了解，请前往single-spa.js 官网查阅文档

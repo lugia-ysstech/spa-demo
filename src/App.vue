@@ -10,21 +10,27 @@
                     </router-link>
                 </a-menu-item>
                 <a-menu-item key="2">
-                    <router-link to="react">
+                    <router-link to="/react">
                         <a-icon type="video-camera"/>
                         <span>React</span>
                     </router-link>
                 </a-menu-item>
 
                 <a-menu-item key="21">
-                    <router-link to="helloReact">
+                    <router-link to="/lugia">
                         <a-icon type="video-camera"/>
-                        <span>ReacHello</span>
+                        <span>lugia</span>
+                    </router-link>
+                </a-menu-item>
+                <a-menu-item key="211">
+                    <router-link to="/lugia/query">
+                        <a-icon type="video-camera"/>
+                        <span>lugiaQuery</span>
                     </router-link>
                 </a-menu-item>
 
                 <a-menu-item key="3">
-                    <router-link to="angular">
+                    <router-link to="/angular">
                         <a-icon type="video-camera"/>
                         <span>Angular</span>
                     </router-link>

@@ -41,7 +41,7 @@ singleSpa.registerApplication(
 
 
 singleSpa.registerApplication(
-    'helloReactApp',
+    'lugia',
     async () => {
         await runScript('http://localhost:3015/static/js/main.js');
         console.log('window.reactApp', window.reactApp)
@@ -49,7 +49,7 @@ singleSpa.registerApplication(
     },
     location =>
     {
-        return location.pathname.startsWith('/helloReact')
+        return location.pathname.startsWith('/lugia')
     }
 );
 

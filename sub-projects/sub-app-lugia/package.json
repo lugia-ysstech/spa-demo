@@ -3,10 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@lugia/lugia-web": "^1.2.3-alpha-9",
+    "@lugia/lugiax": "^1.1.8",
+    "@lugia/lugiax-router": "^1.1.11",
+    "history": "^4.10.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "reactstrap": "^6.2.0",
-    "single-spa-react": "^2.4.0"
+    "single-spa-react": "^2.4.0",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "autoprefixer": "7.1.6",

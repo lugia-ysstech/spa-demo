@@ -21,8 +21,8 @@
     - yarn install / npm install / cnpm install
     - npm run build
     - npm run serve-react
- 3. helloReact：
-    - cd sub-projects/sub-app-react16-Hello
+ 3. lugia：
+    - cd sub-projects/sub-app-lugia
     - yarn install / npm install / cnpm install
     - npm run build
     - npm run serve-react
@@ -31,10 +31,6 @@
     - yarn install / npm install / cnpm install
     - npm run build
     - npm run serve-angular
-5. vue-single-spa-back:
-    - yarn install / npm install / cnpm install
-    - npm run start
-    
 ## 端口示例：
 
 - vuejs: 3000

@@ -13,9 +13,13 @@ const routes = [
     path: '/react',
     name: 'react',
     component: () => import(/* webpackChunkName: "about" */ '../components/React')
-  },  {
-    path: '/helloReact',
-    name: 'helloReact',
+  }, {
+    path: '/lugia',
+    name: 'lugia',
+    component: () => import(/* webpackChunkName: "about" */ '../components/React')
+  }, {
+    path: '/lugia/query',
+    name: 'lugiaQuery',
     component: () => import(/* webpackChunkName: "about" */ '../components/React')
   },
   {

@@ -33,7 +33,7 @@ singleSpa.registerApplication(
         console.log('window.reactApp', window.reactApp)
         return window.reactApp;
     },
-    location => 
+    location =>
     {
         return location.pathname.startsWith('/react')
     }
@@ -43,8 +43,9 @@ singleSpa.registerApplication(
 singleSpa.registerApplication(
     'lugia',
     async () => {
-        await runScript('http://localhost:3015/static/js/main.js');
-        console.log('window.reactApp', window.reactApp)
+        await runScript('http://localhost:3015/static/js/vendors.js');
+        await runScript('http://localhost:3015/static/js/index.js');
+        console.log('window.reactApp', window.reactApp);
         return window.reactApp;
     },
     location =>
